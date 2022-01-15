@@ -3,7 +3,7 @@
 
 第一步，创建一个空的repo，命名为redc202.github.io（刚开始我直接fork，所以没有成功），并把这个repo导入其中(只需要CNAME和index.html两个文件就可以了，内容很短)。
 
-第二步，在你域名的dns中添加如下的`CNAME`记录:（我使用过的是阿里云，新手引导用的A记录，点它左边的添加记录，选择CNAME记录，记录值填上面创建的repo名XXX.github.io）
+第二步，在你域名的dns中添加如下的`CNAME`记录:（我使用的是阿里云，新手引导用的A记录，点它左边的添加记录，选择CNAME记录，记录值填上面创建的repo名XXX.github.io）
 ```
 主机名: 按你的需求设置，比如"www"或者“@”
 记录值: redc202.github.io.
